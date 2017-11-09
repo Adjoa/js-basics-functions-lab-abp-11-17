@@ -17,7 +17,7 @@ function distanceFromHqInFeet(pickupLocation) {
 
 function distanceTravelledInFeet(startingBlock, endingBlock) {
   let blocks = Math.abs(startingBlock-endingBlock);
-  let feet = distanceFromHqInFeet(blocks);
+  let feet = blocks * 264;
   return feet;
 }
 

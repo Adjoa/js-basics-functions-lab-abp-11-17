@@ -1,22 +1,23 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(pickup) {
-  if (pickup > 42) {
-    let blocks = pickup - 42;
+function distanceFromHqInBlocks(pickupLocation) {
+  if (pickupLocation > 42) {
+    let blocks = pickupLocation - 42;
     return blocks;
-  } else if (pickup < 42) {
-    let blocks = 42 - pickup
+  } else if (pickupLocation < 42) {
+    let blocks = 42 - pickupLocation
     return blocks;
   }
 }
 
-function distanceFromHqInFeet(pickup) {
-  let blocks = distanceFromHqInBlocks(pickup);
+function distanceFromHqInFeet(pickupLocation) {
+  let blocks = distanceFromHqInBlocks(pickupLocation);
   let feet = blocks * 264;
   return feet;
 }
 
-function distanceTravelledInFeet(start, end) {
-
+function distanceTravelledInFeet(startingBlock, endingBlock) {
+  let feet = Math.abs(start-end);
+  return feet;
 }
 
 function calculatesFarePrice() {

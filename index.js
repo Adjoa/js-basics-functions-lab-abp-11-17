@@ -21,7 +21,6 @@ function distanceTravelledInFeet(startingBlock, endingBlock) {
   return feet;
 }
 
-
 /*function calculatesFarePrice(startingBlock, endingBlock) {
   let feet = distanceTravelledInFeet(startingBlock, endingBlock);
   let fare;
@@ -40,4 +39,4 @@ function distanceTravelledInFeet(startingBlock, endingBlock) {
       return 'cannon travel that far';
       break;
     }
-}
+}*/

@@ -25,13 +25,11 @@ function distanceTravelledInFeet(startingBlock, endingBlock) {
 function calculatesFarePrice(startingBlock, endingBlock) {
   let feet = distanceTravelledInFeet(startingBlock, endingBlock);
   let fare;
-
-/*  switch(feet) {
-    case (feet <= 400) {
-      return fare = 0;
-      break;
-    }
-    case (feet >= 400 && feet <= 2000) {
+  
+  if (feet <= 400) {
+    return fare = 0;
+  }
+/*    case (feet >= 400 && feet <= 2000) {
       return fare = feet * 0.02;
       break;
     }
@@ -43,5 +41,4 @@ function calculatesFarePrice(startingBlock, endingBlock) {
       return 'cannon travel that far';
       break;
     }
-  }*/
 }

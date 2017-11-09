@@ -26,20 +26,7 @@ function calculatesFarePrice(startingBlock, endingBlock) {
     return fare = feet * 0.02;
   } else if (feet >= 2000 && feet <= 2500) {
     return fare = 25;
+  } else if (feet > 2500) {
+    return 'cannot travel that far';
   }
 }
-
-
-/*    case (feet >= 400 && feet <= 2000) {
-      return fare = feet * 0.02;
-      break;
-    }
-    case (feet >= 2000 && feet <= 2500 ) {
-      return fare = 25;
-      break;
-    }
-    case (feet > 2500) {
-      return 'cannon travel that far';
-      break;
-    }
-}*/

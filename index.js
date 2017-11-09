@@ -28,17 +28,20 @@ function calculatesFarePrice(startingBlock, endingBlock) {
 
   switch(feet) {
     case (feet <= 400) {
-      return fare = 0; //break?
+      return fare = 0;
+      break;
     }
     case (feet >= 400 && feet <= 2000) {
       return fare = feet * 0.02;
+      break;
     }
     case (feet >= 2000 && feet <= 2500 ) {
       return fare = 25;
+      break;
     }
     case (feet > 2500) {
       return 'cannon travel that far';
+      break;
     }
   }
 }
-

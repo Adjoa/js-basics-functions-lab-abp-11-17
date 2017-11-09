@@ -1,12 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickupLocation) {
-  if (pickupLocation > 42) {
-    let blocks = pickupLocation - 42;
-    return blocks;
-  } else if (pickupLocation < 42) {
-    let blocks = 42 - pickupLocation
-    return blocks;
-  }
+  let blocks = Math.abs(pickupLocation - 42);
+  return blocks;
 }
 
 function distanceFromHqInFeet(pickupLocation) {
@@ -27,7 +22,7 @@ function calculatesFarePrice(startingBlock, endingBlock) {
 
   if (feet >= 1 && feet <= 400) {
     return fare = 0;
-  }
+  } else if {}
 }
 
 

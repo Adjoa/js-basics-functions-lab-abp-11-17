@@ -1,13 +1,14 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickupLocation) {
-  if (pickupLocation > 42) {
+  let blocks = Math.abs(pickupLocation - 42);
+  return blocks;
+  /*if (pickupLocation > 42) {
     let blocks = pickupLocation - 42;
     return blocks;
   } else if (pickupLocation < 42) {
     let blocks = 42 - pickupLocation
     return blocks;
-  }
-  //use Math.abs()
+  }*/
 }
 
 function distanceFromHqInFeet(pickupLocation) {

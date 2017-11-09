@@ -26,7 +26,7 @@ function calculatesFarePrice(startingBlock, endingBlock) {
   let fare;
 
   if (feet >= 1 && feet <= 400) {
-    return 0;
+    return fare = 0;
   }
 }
 

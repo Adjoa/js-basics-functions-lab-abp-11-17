@@ -22,10 +22,10 @@ function distanceTravelledInFeet(startingBlock, endingBlock) {
 }
 
 
-function calculatesFarePrice(startingBlock, endingBlock) {
+/*function calculatesFarePrice(startingBlock, endingBlock) {
   let feet = distanceTravelledInFeet(startingBlock, endingBlock);
   let fare;
-}
+}*/
 
 
 /*    case (feet >= 400 && feet <= 2000) {

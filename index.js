@@ -23,7 +23,8 @@ function calculatesFarePrice(startingBlock, endingBlock) {
   if (feet >= 1 && feet <= 400) {
     return fare = 0;
   } else if (feet >= 400 && feet <= 2000) {
-    return fare = feet * 0.02;
+    fare = feet * 0.02;
+    return fare;
   } else if (feet >= 2000 && feet <= 2500) {
     return fare = 25;
   } else if (feet > 2500) {
